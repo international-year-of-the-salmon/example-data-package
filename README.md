@@ -1,4 +1,4 @@
-# example-data-packageREADME
+#README
 
 Statement of Data Access:
 The data provided here may not be made public until June 1st 2022.
