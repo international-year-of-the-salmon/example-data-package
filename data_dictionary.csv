@@ -1,0 +1,18 @@
+﻿Table name,Column name,Full name,Units,Description
+sites,site_id,Site ID,,Unique alphanumeric ID assigned to each site
+sites,site_name,Site Name,,Chart name for the location of a survey site
+sites,region,Region,,"General geographic zone. ""DI"" (Discovery Islands) or ""JS"" (Johnstone Strait)"
+sites,zone,Zone,,"Categorization of the generalized migration route taken by outmigrating juvenile salmon. For DI: ""W"" (west), ""C"" (central), or ""E"" (east). For JS: ""N"" (north) or ""S"" (south)"
+sites,priority,Priority,,Order in which a site was surveyed within a region
+sites,pfma,Pacific Fisheries Management Area,,DFO management area and subarea designation
+sites,notes,Notes,,
+site_coordinates,site_id,Site ID,,
+site_coordinates,coordinate_type,Location Type,,"""survey_start"" = start location of the visual survey transect. ""survey_end"" = end location of the visual survey transect. ""ocgy_std"" = location of the standard oceanographic sampling station within the site."
+site_coordinates,site_lat,Latitude,decimal.degree,Location in decimal degrees
+site_coordinates,site_long,Latitude,decimal.degree,Location in decimal degrees
+survey_data,survey_id,Survey ID,,Unique alphanumeric ID assigned to each survey
+survey_data,survey_date,Survey Date,,Date upon which the survey was conducted
+survey_data,site_id,Site ID,,
+survey_data,crew,Crew,,Full names of crew members
+survey_data,precip,Precipitation,,"""none"", ""light"", ""moderate"", ""heavy"""
+survey_data,cloud_cover,Cloud Cover,percent,"Visual approximation of the percent of cloud cover overhead, ± 12.5 %. ""0"", ""25"", ""50"", ""75"", ""100"""
